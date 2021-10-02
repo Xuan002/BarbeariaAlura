@@ -215,3 +215,18 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+
+@media screen and (max-width: 480px) {
+	.caixa, .produtos, .produto-descricao, .produto-preco {
+	width: auto;
+ 	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+}
